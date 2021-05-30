@@ -52,13 +52,5 @@ class HappyBirthday extends Command
               });
         }
         $this->info('Birthday Message Send Successfully!');
-
-// Only Mail 
-            // Mail::raw('On your birthday we wish for you that whatever you want most in life it comes to you just the way you imagined it or better. Happy birthday' , function ($message) {
-            //     $message->to('dp.sparkle1007@gmail.com' , 'Das Patel')
-            //       ->subject('Happy Birthday Wish!');
-            //     $message->from('ap.sparkle026@gmail.com' , 'Admin');
-            //   });
-            // $this->info('Birthday Message Send Successfully!');
     }
 }

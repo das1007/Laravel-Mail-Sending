@@ -19,9 +19,9 @@ Route::get('/', function () {
 
 Route::get('/mail' , function(){
   Mail::raw('On your birthday we wish for you that whatever you want most in life it comes to you just the way you imagined it or better. Happy birthday' , function ($message) {
-    $message->to('patelami025@gmail.com' , 'Das Patel')
+    $message->to('example@gmail.com' , 'Das Patel')
     ->subject('Happy Birthday Wish!');
-    $message->from('dp.sparkle1007@gmail.com' , 'Admin');
+    $message->from('example@gmail.com' , 'Admin');
   });
   echo 'Birthday Message Send Successfully!';
 });
