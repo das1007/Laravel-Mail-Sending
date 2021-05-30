@@ -8,12 +8,12 @@
 # Create .env file and set below code
 - Already provide .**evn examale** file. So copy that file and add below code.
 
-    MAIL_MAILER=smtp
-    MAIL_HOST=smtp.gmail.com
-    MAIL_PORT=587
-    MAIL_USERNAME=example@gmail.com
-    MAIL_PASSWORD=*********
-    MAIL_ENCRYPTION=tls
+    - MAIL_MAILER=smtp
+    - MAIL_HOST=smtp.gmail.com
+    - MAIL_PORT=587
+    - MAIL_USERNAME=example@gmail.com
+    - MAIL_PASSWORD=*********
+    - MAIL_ENCRYPTION=tls
     
   - Also set database connection 
 
